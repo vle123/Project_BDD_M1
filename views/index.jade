@@ -1,0 +1,12 @@
+extends layout
+
+
+block content
+  form(name="filter",method="post")
+    div.input
+      span.label Masse
+      input(type="number",name="masse")
+  each book in books
+    h1= book.Nom
+    p Classe #{book.Classe}
+    p Masse #{book.Masse}
