@@ -1,8 +1,77 @@
+html{
+  background: url("/images/background.jpg");
+  height: 100%;
+
+}
 body {
-  padding: 50px;
+  padding-top:5%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 90%;
 }
 
 a {
   color: #00B7FF;
+}
+p.nom{
+  position: absolute;
+  visibility: hidden;
+
+}
+span:hover p.nom{
+  visibility: visible;
+}
+.objet{
+  display: inline-block;
+  min-width: 80px;
+  min-height: 80px;
+  
+}
+.resultat{
+  height: 100%;
+  width: 95%;
+  margin: auto;
+}
+.id{
+  visibility: hidden;
+  position: absolute;
+}
+.objet a {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.objet img{
+  width: 80px;
+}
+form{
+
+      background: rgba(255,255,255,0.6);
+      text-align: center;
+      color: black;
+      padding: 15px;
+      border-radius: 0 0 15px 15px;
+      width: fit-content;
+      margin: auto;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+form div {
+  display: inline-block;
+}
+section{
+  background: rgba(255,255,255,0.6);
+  display: inline-block;
+  margin: auto;
+  padding: 5px 9% 5px 10%;
+  border-radius: 5px;
+}
+article{
+  text-align: center;
+  margin-top: 50px;
 }
