@@ -29,10 +29,20 @@ block content
             input(type="submit",name="submit",value="filtrer")
   article
     section
-      h1.nom #{object.Nom}
+      if object.lienObjet
+        h1.nom 
+          a(href= "https://fr.wikipedia.org" + object.lienObjet ) #{object["Nom"]}
+      else
+        h1.nom #{object.Nom}
+      if object.Photo
+        img(src= object.Photo, alt="")
       p Classe: #{object.Classe}
       p Numéro d'ordre:  #{object["Numéro d'ordre"]}
-      p Type: #{object["Type"]}
+      if object.LienType
+        p Type: 
+          a(href= "https://fr.wikipedia.org" + object.LienType ) #{object["Type"]}
+      else
+        p Type: #{object["Type"]}
       p Diamètre équatoriale: #{object['Diamètre équatoriale']}
       p Masse: #{object.Masse}
       p demi-grand axe: #{object["demi-grand axe"]}

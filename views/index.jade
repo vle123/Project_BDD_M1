@@ -17,7 +17,7 @@ block content
           select(id="Classe", name="classe")
             option(value= classe) #{classe}
             option(value="") Toutes
-            option(value="Etoile") Etoile
+            option(value="Étoile") Étoile
             option(value="Planète") Planète
             option(value="Satellite de planète") Satellite de planète
             option(value="Astéroïde") Astéroïde
@@ -33,7 +33,7 @@ block content
         a(href="/view/#{book._id}") 
           p.nom #{book.Nom}
           case book.Classe
-            when "Etoile"
+            when "Étoile"
               img(src="images/soleil.png", alt= book.Classe)
             when "Planète"
               img(src="images/planete.png", alt= book.Classe)
@@ -41,8 +41,8 @@ block content
               img(src="images/lune.png", alt= book.Classe)
             when "Satellite de planète mineure"
               img(src="images/lune.png", alt= book.Classe)
-            when "Etoile"
-              img(src="images/soleil.png", alt= book.Classe)
+            when "Satellite"
+              img(src="images/lune.png", alt= book.Classe)
             when "Comète"
               img(src="images/comeete.png", alt= book.Classe)
             when "Satellite transneptunien"
