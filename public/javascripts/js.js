@@ -4,8 +4,8 @@
     console.log(obj[0].offsetHeight+" "+obj[0].offsetWidth);
     var w = obj[0].offsetWidth;
     var h = obj[0].offsetHeight;
-    var W = parseInt(w/80);
-    var H = parseInt(h/85);
+    var W = parseInt(w/92);
+    var H = parseInt(h/92)-1;
     var nb = H*W;
     console.log(H+" "+W);
     compt = nb-objet.length;

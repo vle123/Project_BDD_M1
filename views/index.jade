@@ -19,7 +19,7 @@ block content
             option(value="") Toutes
             option(value="Étoile") Étoile
             option(value="Planète") Planète
-            option(value="Satellite de planète") Satellite de planète
+            option(value="Satellite") Satellite
             option(value="Astéroïde") Astéroïde
             option(value="Centaure. Troyen") Centaure. Troyen
             option(value="Comète") Comète
@@ -32,25 +32,28 @@ block content
       span.objet
         a(href="/view/#{book._id}") 
           p.nom #{book.Nom}
-          case book.Classe
-            when "Étoile"
-              img(src="images/soleil.png", alt= book.Classe)
-            when "Planète"
-              img(src="images/planete.png", alt= book.Classe)
-            when "Satellite de planète"
-              img(src="images/lune.png", alt= book.Classe)
-            when "Satellite de planète mineure"
-              img(src="images/lune.png", alt= book.Classe)
-            when "Satellite"
-              img(src="images/lune.png", alt= book.Classe)
-            when "Comète"
-              img(src="images/comeete.png", alt= book.Classe)
-            when "Satellite transneptunien"
-              img(src="images/lune.png", alt= book.Classe)
-            default
-              img(src="images/asteroide.png", alt= book.Classe)
+          if book.Photo
+            img(src= book.Photo, alt= book.Classe)
+          else
+            case book.Classe
+              when "Étoile"
+                img(src="images/soleil.png", alt= book.Classe)
+              when "Planète"
+                img(src="images/planete.png", alt= book.Classe)
+              when "Satellite de planète"
+                img(src="images/lune.png", alt= book.Classe)
+              when "Satellite de planète mineure"
+                img(src="images/lune.png", alt= book.Classe)
+              when "Satellite"
+                img(src="images/lune.png", alt= book.Classe)
+              when "Comète"
+                img(src="images/comeete.png", alt= book.Classe)
+              when "Satellite transneptunien"
+                img(src="images/lune.png", alt= book.Classe)
+              default
+                img(src="images/asteroide.png", alt= book.Classe)
           p.id= book._id
-      span.objet
+    span.objet
 block script
   script(src='/javascripts/js.js', type="text/javascript" ,defer)
   

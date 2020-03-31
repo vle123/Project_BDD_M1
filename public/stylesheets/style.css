@@ -1,5 +1,5 @@
 html{
-  background: black;
+  background: url(/images/background.jpg);
   height: 100%;
 
 }
@@ -24,6 +24,7 @@ span:hover p.nom{
   display: inline-block;
   min-width: 80px;
   min-height: 80px;
+  margin: 5px;
   
 }
 .resultat{
