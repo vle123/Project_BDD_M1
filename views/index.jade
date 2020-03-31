@@ -1,15 +1,29 @@
 extends layout
 
-
-block content
+block head
   nav
     form(name="filter",method="post")
       div.input
         span.label Nom
         input(type="text",name="name",value= name)
       div.input
+        span.label Paramètre
+          select(id="Number", name="Number")
+            option(value=number) #{number}
+            option(value="Masse") Masse
+            option(value="Diamètre équatoriale") Diamètre équatoriale
+            option(value="demi-grand axe") demi-grand axe
+            option(value="périhélie") périhélie
+            option(value="aphélie") aphélie
+            option(value="excentricité orbitale") excentricité orbitale
+            option(value="inclinaison orbitale") inclinaison orbitale
+            option(value="magnitude absolue") magnitude absolue
+            option(value="magnitude apparente") magnitude apparente
+            
+      div.input
         span.label Minimum
         input(type="number",name="min",value= min)
+      div.input
         span.label Maximum
         input(type="number",name="max",value= max)
       div.input
@@ -26,7 +40,11 @@ block content
             option(value="Transneptunien") Transneptunien
             option(value="Satellite transneptunien") Satellite transneptunien
       div.input
+        span.label Limite
+        input(type="number",name="limit",value=limit)
+      div.input
         input(type="submit",name="submit",value="filtrer")
+block content
   div.resultat
     each book in books
       span.objet

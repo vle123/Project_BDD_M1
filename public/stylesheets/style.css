@@ -4,9 +4,9 @@ html{
 
 }
 body {
-  padding-top:5%;
+ 
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  height: 90%;
+ 
 }
 
 a {
@@ -28,7 +28,7 @@ span:hover p.nom{
   
 }
 .resultat{
-  height: 100%;
+  
   width: 95%;
   margin: auto;
 }
@@ -46,18 +46,48 @@ span:hover p.nom{
 .objet img{
   width: 80px;
 }
+span.label {
+  font-weight: bold;
+}
+input, select {
+  width: 8em;
+  border-radius: 3px;
+  border: none;
+  display: block;
+  padding: 3px;
+  margin: 5px;
+}
 form{
 
       background: rgba(255,255,255,0.6);
       text-align: center;
       color: black;
-      padding: 15px;
-      border-radius: 0 0 15px 15px;
+      padding: 5px;
+      border-radius: 0 0 10px 10px;
       width: fit-content;
       margin: auto;
 }
+.bold{
+  font-weight: bold;
+}
+section {
+  background: rgba(255,255,255,0.6);
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px 9% 5px 10%;
+  border-radius: 15px;
+  width: 20%;
+}
+.imgView{
+  margin:10px;
+}
+.input{
+  margin: 5px;
+}
 nav {
-  position: fixed;
+  
   top: 0;
   width: 100%;
   text-align: center;
@@ -65,13 +95,7 @@ nav {
 form div {
   display: inline-block;
 }
-section{
-  background: rgba(255,255,255,0.6);
-  display: inline-block;
-  margin: auto;
-  padding: 5px 9% 5px 10%;
-  border-radius: 5px;
-}
+
 article{
   text-align: center;
   margin-top: 50px;

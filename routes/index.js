@@ -49,24 +49,34 @@ router.post('/', function (req, res) {
     if (req.body.min!="" || req.body.max!=""){
       var minmax = new Map();
       if (req.body.min!=""){
-        minmax.set("$gte",10**parseInt(req.body.min));
+        if(req.body.Number == "Masse"){
+          var n = 10**parseInt(req.body.min);
+        }else{
+          n=parseInt(req.body.min);
+        }
+        minmax.set("$gte",n);
         
       }
       if (req.body.max!=""){
-        minmax.set("$lte",10**parseInt(req.body.max));
+        if(req.body.Number == "Masse"){
+          var n = 10**parseInt(req.body.max);
+        }else{
+          n=parseInt(req.body.max);
+        }
+        minmax.set("$lte",n);
         
       }
-      re.set("Masse",minmax);
+      re.set(req.body.Number,minmax);
     }
 
     re.set("Nom",new RegExp(req.body.name, "i"));
     console.log(re);
-    db.collection('Object').find(re).toArray((err, tasks) => {
+    db.collection('Object').find(re).limit(parseInt(req.body.limit)).toArray((err, tasks) => {
       // Tester la commande MongoDb
       if(err){ res.send(err) }
       else{ 
         // Envoyer les données au format json
-        res.render('index', { title:"Stellar",books: tasks ,name:req.body.name,classe:req.body.classe,min:req.body.min,max:req.body.max});
+        res.render('index', { title:"Stellar",books: tasks ,name:req.body.name,classe:req.body.classe,min:req.body.min,max:req.body.max,number:req.body.Number,limit:req.body.limit});
         //res.json(tasks)
       }
     });

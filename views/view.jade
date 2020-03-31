@@ -1,32 +1,50 @@
 extends layout
 
-
-block content
+block head
   nav
     form(name="filter",method="post",action="/")
-          div.input
-            span.label Nom
-            input(type="text",name="name",value= name)
-          div.input
-            span.label Minimum
-            input(type="number",name="min",value= min)
-            span.label Maximum
-            input(type="number",name="max",value= max)
-          div.input
-            span.label Classe
-              select(id="Classe", name="classe")
-                option(value= classe) #{classe}
-                option(value="") Toutes
-                option(value="Etoile") Etoile
-                option(value="Planète") Planète
-                option(value="Satellite de planète") Satellite de planète
-                option(value="Astéroïde") Astéroïde
-                option(value="Centaure. Troyen") Centaure. Troyen
-                option(value="Comète") Comète
-                option(value="Transneptunien") Transneptunien
-                option(value="Satellite transneptunien") Satellite transneptunien
-          div.input
-            input(type="submit",name="submit",value="filtrer")
+      div.input
+        span.label Nom
+        input(type="text",name="name",value= name)
+      div.input
+        span.label Paramètre
+          select(id="Number", name="Number")
+            option(value=number) #{number}
+            option(value="Masse") Masse
+            option(value="Diamètre équatoriale") Diamètre équatoriale
+            option(value="demi-grand axe") demi-grand axe
+            option(value="périhélie") périhélie
+            option(value="aphélie") aphélie
+            option(value="excentricité orbitale") excentricité orbitale
+            option(value="inclinaison orbitale") inclinaison orbitale
+            option(value="magnitude absolue") magnitude absolue
+            option(value="magnitude apparente") magnitude apparente
+            
+      div.input
+        span.label Minimum
+        input(type="number",name="min",value= min)
+      div.input
+        span.label Maximum
+        input(type="number",name="max",value= max)
+      div.input
+        span.label Classe
+          select(id="Classe", name="classe")
+            option(value= classe) #{classe}
+            option(value="") Toutes
+            option(value="Étoile") Étoile
+            option(value="Planète") Planète
+            option(value="Satellite") Satellite
+            option(value="Astéroïde") Astéroïde
+            option(value="Centaure. Troyen") Centaure. Troyen
+            option(value="Comète") Comète
+            option(value="Transneptunien") Transneptunien
+            option(value="Satellite transneptunien") Satellite transneptunien
+      div.input
+        span.label Limite
+        input(type="number",name="limit",value=limit)
+      div.input
+        input(type="submit",name="submit",value="filtrer")
+block content
   article
     section
       if object.lienObjet
@@ -34,21 +52,34 @@ block content
           a(href= "https://fr.wikipedia.org" + object.lienObjet ) #{object["Nom"]}
       else
         h1.nom #{object.Nom}
-      if object.Photo
-        img(src= object.Photo, alt="")
-      p Classe: #{object.Classe}
-      p Numéro d'ordre:  #{object["Numéro d'ordre"]}
+
+    if object.Photo
+      img(src= object.Photo, alt="").imgView
+    section 
+      p.bold  Classe 
+      p #{object.Classe}
+      p.bold  Numéro d'ordre
+      p #{object["Numéro d'ordre"]}
       if object.LienType
-        p Type: 
-          a(href= "https://fr.wikipedia.org" + object.LienType ) #{object["Type"]}
+        p.bold  Type 
+        a(href= "https://fr.wikipedia.org" + object.LienType ) #{object["Type"]}
       else
-        p Type: #{object["Type"]}
-      p Diamètre équatoriale: #{object['Diamètre équatoriale']}
-      p Masse: #{object.Masse}
-      p demi-grand axe: #{object["demi-grand axe"]}
-      p périhélie: #{object["périhélie"]}
-      p aphélie: #{object["aphélie"]}
-      p excentricité orbitale: #{object["excentricité orbitale"]}
-      p magnitude absolue: #{object["magnitude absolue"]}
-      p magnitude apparente: #{object["magnitude apparente"]}
+        p.bold Type 
+        p #{object["Type"]}
+      p.bold  Diamètre équatoriale
+      p #{object['Diamètre équatoriale']}
+      p.bold  Masse
+      p #{object.Masse}
+      p.bold  demi-grand axe
+      p #{object["demi-grand axe"]}
+      p.bold  périhélie
+      p #{object["périhélie"]}
+      p.bold  aphélie
+      p #{object["aphélie"]}
+      p.bold  excentricité orbitale
+      p #{object["excentricité orbitale"]}
+      p.bold  magnitude absolue
+      p #{object["magnitude absolue"]}
+      p.bold  magnitude apparente
+      p #{object["magnitude apparente"]}
   

@@ -1,9 +1,12 @@
 
     obj = document.getElementsByClassName('resultat');
+    html = document.getElementsByTagName('html')[0];
+    nav = document.getElementsByTagName('nav')[0];
     objet = document.getElementsByClassName('objet');
     console.log(obj[0].offsetHeight+" "+obj[0].offsetWidth);
+
     var w = obj[0].offsetWidth;
-    var h = obj[0].offsetHeight;
+    var h = html.offsetHeight-nav.offsetHeight;
     var W = parseInt(w/92);
     var H = parseInt(h/92)-1;
     var nb = H*W;
