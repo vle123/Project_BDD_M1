@@ -15,6 +15,11 @@ a {
 p.nom{
   position: absolute;
   visibility: hidden;
+  display: block;
+    background: #1d1d1d;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
 
 }
 span:hover p.nom{
@@ -44,7 +49,7 @@ span:hover p.nom{
   text-align: center;
 }
 .objet img{
-  width: 80px;
+  width: 120px;
 }
 span.label {
   font-weight: bold;

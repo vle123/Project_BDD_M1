@@ -7,8 +7,8 @@
 
     var w = obj[0].offsetWidth;
     var h = html.offsetHeight-nav.offsetHeight;
-    var W = parseInt(w/92);
-    var H = parseInt(h/92)-1;
+    var W = parseInt(w/135);
+    var H = parseInt(h/135)-1;
     var nb = H*W;
     console.log(H+" "+W);
     compt = nb-objet.length;

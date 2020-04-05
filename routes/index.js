@@ -56,8 +56,11 @@ router.post('/', function (req, res) {
       if(err){ res.send(err) }
       else{ 
         
-        console.log(tasks);
-        res.render('index', { title:"Stellar",books: tasks ,name:req.body.name,classe:req.body.classe,min:req.body.min,max:req.body.max,number:req.body.Number,limit:req.body.limit});
+        if(tasks.length>15){
+          res.render('indexList', { title:"Stellar",books: tasks ,name:req.body.name,classe:req.body.classe,min:req.body.min,max:req.body.max,number:req.body.Number,limit:req.body.limit});
+        }else{
+          res.render('index', { title:"Stellar",books: tasks ,name:req.body.name,classe:req.body.classe,min:req.body.min,max:req.body.max,number:req.body.Number,limit:req.body.limit});
+        }
       }
     });
 

@@ -59,28 +59,37 @@ block content
     section 
       p.bold  Classe 
       p #{object.Classe}
-      p.bold  Numéro d'ordre
-      p #{object["Numéro d'ordre"]}
+      if(object["Numéro d'ordre"])
+        p.bold  Numéro d'ordre
+        p= object["Numéro d'ordre"]
       if object.LienType
         p.bold  Type 
         a(href= "https://fr.wikipedia.org" + object.LienType ) #{object["Type"]}
       else
         p.bold Type 
         p #{object["Type"]}
-      p.bold  Diamètre équatoriale
-      p #{object['Diamètre équatoriale']}
-      p.bold  Masse
-      p #{object.Masse}
-      p.bold  demi-grand axe
-      p #{object["demi-grand axe"]}
-      p.bold  périhélie
-      p #{object["périhélie"]}
-      p.bold  aphélie
-      p #{object["aphélie"]}
-      p.bold  excentricité orbitale
-      p #{object["excentricité orbitale"]}
-      p.bold  magnitude absolue
-      p #{object["magnitude absolue"]}
-      p.bold  magnitude apparente
-      p #{object["magnitude apparente"]}
+      if(object['Diamètre équatoriale'])
+        p.bold  Diamètre équatoriale
+        p #{object['Diamètre équatoriale']}
+      if(object.Masse)
+        p.bold  Masse
+        p #{object.Masse}
+      if(object["demi-grand axe"])
+        p.bold  demi-grand axe
+        p #{object["demi-grand axe"]}
+      if(object["périhélie"])
+        p.bold  périhélie
+        p #{object["périhélie"]}
+      if(object["aphélie"])
+        p.bold  aphélie
+        p #{object["aphélie"]}
+      if(object["excentricité orbitale"])
+        p.bold  excentricité orbitale
+        p #{object["excentricité orbitale"]}
+      if(object["magnitude absolue"])
+        p.bold  magnitude absolue
+        p #{object["magnitude absolue"]}
+      if(object["magnitude apparente"])
+        p.bold  magnitude apparente
+        p #{object["magnitude apparente"]}
   
