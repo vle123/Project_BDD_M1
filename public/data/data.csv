@@ -1,0 +1,852 @@
+Nom,Diametre,Masse,Type,Categorie
+Soleil,1392000.0,1.9889e+30,Étoile,A
+Jupiter,142984.0,1.8986000000000002e+27,Planète,B
+Saturne,120536.0,5.6845999999999996e+26,Planète,B
+Uranus,51118.0,8.6832e+25,Planète,B
+Neptune,49528.0,1.0243e+26,Planète,B
+Terre,12756.0,5.973600000000001e+24,Planète,B
+Vénus,12104.0,4.8685e+24,Planète,B
+Mars,6780.0,6.4185e+23,Planète,B
+Ganymède,5262.0,1.4819e+23,Satellite,C
+Titan,5150.0,1.3460000000000001e+23,Satellite,C
+Mercure,4878.0,3.3020000000000006e+23,Planète,B
+Callisto,4821.0,1.0759000000000001e+23,Satellite,C
+Io,3643.0,8.931900000000001e+22,Satellite,C
+Lune,3474.0,7.348e+22,Satellite,C
+Europe,3122.0,4.7998000000000005e+22,Satellite,C
+Triton,2707.0,2.14e+22,Satellite,C
+Pluton,2370.0,1.3140000000000001e+22,Transneptunien,H
+Éris,2326.0,1.66e+22,Transneptunien,H
+Hauméa,1960.0,4.2e+21,Transneptunien,H
+Titania,1577.0,3.53e+21,Satellite,C
+Rhéa,1532.0,2.3166000000000003e+21,Satellite,C
+Obéron,1523.0,3.01e+21,Satellite,C
+Makémaké,1500.0,3.5e+21,Transneptunien,H
+Japet,1494.0,2e+21,Satellite,C
+Charon,1207.0,1.62e+21,Satellite transneptunien,I
+Gonggong,1200.0,1.81e+21,Transneptunien,H
+Quaoar,1170.0,1.02e+21,Transneptunien,H
+Umbriel,1169.0,1.2e+21,Satellite,C
+Ariel,1162.0,1.4e+21,Satellite,C
+Dioné,1118.0,1.0960000000000001e+21,Satellite,C
+Téthys,1060.0,6.176e+20,Satellite,C
+Sedna,995.0,3e+21,Transneptunien,H
+Orcus,946.0,7e+20,Transneptunien,H
+Cérès,946.0,9.460000000000001e+20,Astéroïde,D
+2002 MS,900.0,,Transneptunien,H
+Salacie,900.0,4.66e+20,Transneptunien,H
+Varda,838.0,6.1e+20,Transneptunien,H
+2007 JJ,800.0,,Transneptunien,H
+2003 AZ,794.0,,Transneptunien,H
+2006 QH,765.0,,Transneptunien,H
+Ixion,759.0,9.050000000000001e+20,Transneptunien,H
+2013 FY,750.0,4.1e+19,Transneptunien,H
+2002 AW,700.0,3.69e+20,Transneptunien,H
+2005 RN,680.0,,Transneptunien,H
+2004 GV,680.0,,Transneptunien,H
+2003 OP,666.0,,Transneptunien,H
+2005 RR,666.0,,Transneptunien,H
+2002 UX,660.0,1.2e+20,Transneptunien,H
+2010 KZ,644.0,,Transneptunien,H
+2003 UZ,636.0,,Transneptunien,H
+2001 UR,636.0,2.7799999999999997e+20,Transneptunien,H
+2010 RF,613.0,,Transneptunien,H
+Chaos,612.0,1.72e+20,Transneptunien,H
+2010 RE,612.0,,Transneptunien,H
+Varuna,603.0,3.82e+20,Transneptunien,H
+2004 XR,600.0,,Transneptunien,H
+2010 FX,600.0,,Transneptunien,H
+Gǃkúnǁ'hòmdímà,600.0,,Transneptunien,H
+2002 TC,584.0,,Transneptunien,H
+2008 ST,583.0,,Transneptunien,H
+Pallas,582.0,2.06e+20,Astéroïde,D
+2005 RM,580.0,,Transneptunien,H
+2002 KX,562.0,,Transneptunien,H
+2002 KW,560.0,,Transneptunien,H
+Vesta,560.0,2.701e+20,Astéroïde,D
+2004 TY,554.0,,Transneptunien,H
+2002 XV,550.0,,Transneptunien,H
+2014 UM,541.0,,Transneptunien,H
+2008 OG,529.0,,Transneptunien,H
+2014 FC,521.0,,Transneptunien,H
+2010 VK,520.0,,Transneptunien,H
+2003 VS,520.0,,Transneptunien,H
+Encelade,513.0,8.6e+19,Satellite,C
+2014 FT,507.0,,Transneptunien,H
+2007 JH,505.0,,Transneptunien,H
+2003 QX,505.0,,Transneptunien,H
+2015 AJ,503.0,,Transneptunien,H
+2010 VZ,503.0,,Transneptunien,H
+2004 NT,500.0,,Transneptunien,H
+2005 UQ,490.0,,Transneptunien,H
+2007 XV,486.0,,Transneptunien,H
+1995 SM,482.0,1.95e+20,Transneptunien,H
+Miranda,480.0,6.6e+19,Satellite,C
+2010 TJ,478.0,,Transneptunien,H
+2011 GM,478.0,,Transneptunien,H
+2010 TY,478.0,,Centaure. Troyen,F
+2001 KA,472.0,,Transneptunien,H
+Dziewanna,470.0,,Transneptunien,H
+1999 DE,461.0,2.04e+20,Transneptunien,H
+2008 AP,461.0,,Transneptunien,H
+2004 PG,461.0,,Transneptunien,H
+1998 SN,460.0,,Transneptunien,H
+2000 YW,455.0,,Transneptunien,H
+2013 JW,452.0,,Transneptunien,H
+2014 FY,451.0,,Transneptunien,H
+Huya,450.0,1e+20,Transneptunien,H
+2001 QF,450.0,,Transneptunien,H
+2003 FY,440.0,1e+20,Transneptunien,H
+2010 EP,440.0,,Transneptunien,H
+2000 CN,440.0,,Transneptunien,H
+2002 WC,440.0,,Transneptunien,H
+2010 RF,440.0,,Transneptunien,H
+Protée,436.0,4.4e+19,Satellite,C
+2003 QX,434.0,,Transneptunien,H
+2002 GD,430.0,,Transneptunien,H
+1999 CD,420.0,,Transneptunien,H
+Ilmarë,420.0,,Satellite transneptunien,I
+2013 FC,420.0,,Transneptunien,H
+2010 EL,420.0,,Transneptunien,H
+1996 TO,417.0,2.2999999999999997e+20,Transneptunien,H
+2005 QU,416.0,,Transneptunien,H
+Mimas,415.0,3.2400000000000004e+19,Satellite,C
+Hygie,407.0,9.3e+19,Astéroïde,D
+2004 PF,406.0,,Transneptunien,H
+2008 UA,403.0,,Transneptunien,H
+2008 QY,401.0,,Transneptunien,H
+2010 ET,401.0,,Transneptunien,H
+2010 HE,401.0,,Transneptunien,H
+1996 GQ,401.0,,Transneptunien,H
+2006 HH,401.0,,Transneptunien,H
+2007 HV,401.0,,Transneptunien,H
+2008 NW,401.0,,Transneptunien,H
+2009 YE,400.0,,Transneptunien,H
+2004 PT,400.0,,Transneptunien,H
+2005 TB,400.0,1e+20,Transneptunien,H
+Lempo,393.0,2.07e+20,Transneptunien,H
+Sylvia,384.0,1.47e+19,Astéroïde,D
+2005 RS,383.0,,Transneptunien,H
+2003 UZ,383.0,,Transneptunien,H
+2002 CY,383.0,,Transneptunien,H
+2003 UA,383.0,,Transneptunien,H
+2010 JK,374.0,,Transneptunien,H
+2010 RO,374.0,,Transneptunien,H
+2011 JF,374.0,,Transneptunien,H
+2002 PJ,374.0,,Transneptunien,H
+2000 CQ,372.0,,Transneptunien,H
+Hypérion,370.0,1.1000000000000001e+18,Satellite,C
+2001 QS,366.0,,Transneptunien,H
+2002 GJ,366.0,,Transneptunien,H
+2010 ER,366.0,,Transneptunien,H
+2010 VW,366.0,,Transneptunien,H
+2007 PS,366.0,,Transneptunien,H
+2003 QW,366.0,,Transneptunien,H
+2000 PE,365.0,,Transneptunien,H
+1993 SC,363.0,,Transneptunien,H
+2004 UX,360.0,,Transneptunien,H
+2008 CT,358.0,,Transneptunien,H
+Eunomie,357.0,3.12e+19,Astéroïde,D
+2000 KK,356.0,,Transneptunien,H
+2001 XD,350.0,,Transneptunien,H
+2010 VR,350.0,,Transneptunien,H
+1996 TL,350.0,,Transneptunien,H
+2002 XW,350.0,,Transneptunien,H
+1995 TL,350.0,,Transneptunien,H
+Dysnomie,350.0,,Satellite transneptunien,I
+ 2001 YH,345.0,,Transneptunien,H
+Camille,344.0,,Astéroïde,D
+2013 FB,343.0,,Transneptunien,H
+2007 TG,343.0,,Transneptunien,H
+Altjira,340.0,,Transneptunien,H
+Néréide,340.0,3.1e+19,Satellite,C
+2004 XA,339.0,,Transneptunien,H
+Praamzius,334.0,,Transneptunien,H
+2007 JF,334.0,,Transneptunien,H
+2010 AH,334.0,,Transneptunien,H
+2010 PK,334.0,,Transneptunien,H
+2010 PU,334.0,,Transneptunien,H
+2011 HP,334.0,,Transneptunien,H
+2012 XR,328.0,,Transneptunien,H
+Davida,326.0,3.6e+19,Astéroïde,D
+2000 GN,321.0,,Transneptunien,H
+2002 TX,320.0,4.78e+20,Transneptunien,H
+2003 WQ,320.0,,Transneptunien,H
+2003 UB,319.0,,Transneptunien,H
+2002 VR,319.0,,Transneptunien,H
+2001 CZ,319.0,,Transneptunien,H
+2002 PQ,319.0,,Transneptunien,H
+2010 RN,319.0,,Transneptunien,H
+2010 VQ,319.0,,Transneptunien,H
+2001 QW,319.0,,Transneptunien,H
+2002 GF,319.0,,Transneptunien,H
+2014 WT,318.0,,Transneptunien,H
+2014 FV,317.0,,Transneptunien,H
+Interamnia,316.0,3.3e+19,Astéroïde,D
+2012 VP,315.0,,Transneptunien,H
+Hiʻiaka,310.0,,Satellite transneptunien,I
+2007 OC,309.0,,Transneptunien,H
+2014 UH,305.0,,Centaure. Troyen,F
+2007 VK,304.0,,Transneptunien,H
+2010 JC,304.0,,Transneptunien,H
+2005 CA,304.0,,Transneptunien,H
+2005 LB,304.0,,Transneptunien,H
+ 1999 CC,304.0,,Transneptunien,H
+2003 YO,304.0,,Transneptunien,H
+2008 SP,304.0,,Transneptunien,H
+2007 TB,304.0,,Transneptunien,H
+1999 KR,304.0,,Transneptunien,H
+2007 LF,303.0,,Transneptunien,H
+Europe,302.0,2.9e+19,Astéroïde,D
+2010 FD,300.0,,Transneptunien,H
+2013 JV,301.0,,Transneptunien,H
+2011 UT,301.0,,Transneptunien,H
+2002 GH,300.0,,Transneptunien,H
+2003 QM,300.0,,Transneptunien,H
+2003 UY,300.0,,Transneptunien,H
+2004 OJ,300.0,,Transneptunien,H
+2000 CJ,300.0,,Transneptunien,H
+2000 QK,300.0,,Transneptunien,H
+2004 TF,300.0,,Transneptunien,H
+2005 XU,300.0,,Transneptunien,H
+2002 XH,298.0,,Transneptunien,H
+2005 SD,297.0,,Transneptunien,H
+2000 OK,291.0,,Transneptunien,H
+2000 AF,291.0,,Transneptunien,H
+2000 CO,291.0,,Transneptunien,H
+2014 FW,290.0,,Transneptunien,H
+Junon,290.0,2.827e+19,Astéroïde,D
+1995 SN,290.0,,Centaure. Troyen,F
+1998 SM,287.0,,Transneptunien,H
+2000 CR,285.0,,Transneptunien,H
+2002 PD,278.0,,Transneptunien,H
+2008 SO,278.0,,Transneptunien,H
+2008 QB,278.0,,Transneptunien,H
+2003 UY,278.0,,Transneptunien,H
+2014 QF,278.0,,Transneptunien,H
+2003 QA,278.0,,Transneptunien,H
+2002 XE,278.0,,Transneptunien,H
+2001 QX,278.0,,Transneptunien,H
+2002 CX,278.0,,Transneptunien,H
+2007 JF,278.0,,Transneptunien,H
+1999 CL,278.0,,Transneptunien,H
+2002 CP,270.0,,Transneptunien,H
+2004 PD,265.0,,Transneptunien,H
+2006 HV,265.0,,Transneptunien,H
+2009 YG,265.0,,Transneptunien,H
+2005 CG,265.0,,Transneptunien,H
+2001 FP,265.0,,Transneptunien,H
+2009 MF,265.0,,Transneptunien,H
+2003 UA,265.0,,Transneptunien,H
+2002 CV,265.0,,Transneptunien,H
+2002 PA,265.0,,Transneptunien,H
+1999 DF,265.0,,Transneptunien,H
+2011 HO,260.0,,Transneptunien,H
+2001 QJ,260.0,,Transneptunien,H
+2013 FH,258.0,,Transneptunien,H
+1996 TP,255.0,,Transneptunien,H
+Euphrosyne,255.0,1.75e+19,Astéroïde,D
+2000 CK,253.0,,Transneptunien,H
+2014 FP,253.0,,Transneptunien,H
+2005 SA,253.0,,Transneptunien,H
+2001 KG,253.0,,Transneptunien,H
+2010 PT,253.0,,Transneptunien,H
+2001 FZ,253.0,,Transneptunien,H
+2000 OJ,253.0,,Transneptunien,H
+2002 VU,252.0,,Transneptunien,H
+2002 VE,250.0,,Transneptunien,H
+Sila,250.0,,Transneptunien,H
+Vanth,250.0,,Satellite transneptunien,I
+Chariclo,250.0,1.7e+19,Centaure. Troyen,F
+2007 RW,247.0,,Transneptunien,H
+2002 CY,242.0,,Transneptunien,H
+2005 EO,242.0,,Transneptunien,H
+2001 QT,242.0,,Transneptunien,H
+2000 CH,242.0,,Transneptunien,H
+2004 PV,242.0,,Transneptunien,H
+2001 HZ,242.0,,Transneptunien,H
+2001 QR,242.0,,Transneptunien,H
+2001 QX,242.0,,Transneptunien,H
+2013 TV,242.0,,Transneptunien,H
+2001 KK,242.0,,Transneptunien,H
+2002 VS,242.0,,Transneptunien,H
+2013 QP,242.0,,Transneptunien,H
+2006 HQ,242.0,,Transneptunien,H
+Psyché,240.0,2.37e+19,Astéroïde,D
+2001 QC,238.0,,Transneptunien,H
+Cybèle,237.0,1.4e+19,Astéroïde,D
+Nunam,235.0,,Satellite transneptunien,I
+Patienta,234.0,1.09e+19,Astéroïde,D
+2001 KD,232.0,,Transneptunien,H
+2001 KN,231.0,,Transneptunien,H
+2002 PT,231.0,,Transneptunien,H
+2003 LA,231.0,,Transneptunien,H
+Phœbé,230.0,7.2e+18,Satellite,C
+Bamberga,229.0,1.26e+19,Astéroïde,D
+2005 PR,227.0,,Transneptunien,H
+Hector,225.0,,Centaure. Troyen,F
+2010 GB,223.0,,Transneptunien,H
+2000 CP,221.0,,Transneptunien,H
+1998 VG,221.0,,Transneptunien,H
+Zhulong,221.0,,Transneptunien,H
+2001 OU,221.0,,Transneptunien,H
+2001 OQ,221.0,,Transneptunien,H
+2001 PK,221.0,,Transneptunien,H
+2014 QL,221.0,,Transneptunien,H
+Amphitrite,219.0,1e+19,Astéroïde,D
+Doris,219.0,1.14e+19,Astéroïde,D
+Diotime,217.0,9.53e+18,Astéroïde,D
+Herculina,217.0,3.34e+19,Astéroïde,D
+Cléopâtre,217.0,4.5999999999999995e+18,Astéroïde,D
+Ursula,216.0,,Astéroïde,D
+2006 HJ,216.0,,Transneptunien,H
+Égérie,215.0,9.4e+18,Astéroïde,D
+Eugénie,214.0,5.7e+18,Astéroïde,D
+1999 XY,213.0,,Transneptunien,H
+Aurore,212.0,9.01e+18,Astéroïde,D
+2001 KP,211.0,,Transneptunien,H
+2007 TW,211.0,,Transneptunien,H
+Deucalion,211.0,,Transneptunien,H
+2001 QP,211.0,,Transneptunien,H
+2006 WG,211.0,,Transneptunien,H
+2013 RB,211.0,,Transneptunien,H
+2000 OL,211.0,,Transneptunien,H
+2001 KU,211.0,,Transneptunien,H
+2000 GP,211.0,,Transneptunien,H
+1997 CU,211.0,,Transneptunien,H
+2007 VJ,211.0,,Transneptunien,H
+2000 FD,211.0,,Transneptunien,H
+Hermione,209.0,9.37e+18,Astéroïde,D
+2001 QD,208.0,,Transneptunien,H
+Biénor,207.0,,Centaure. Troyen,F
+Larissa,208.0,4.9e+18,Satellite,C
+S/2007 (55637) 1,205.0,,Satellite transneptunien,I
+2000 WT,205.0,,Transneptunien,H
+Rhadamanthe,201.0,,Transneptunien,H
+2005 LC,201.0,,Transneptunien,H
+2001 KC,201.0,,Transneptunien,H
+2005 PQ,201.0,,Transneptunien,H
+2014 QN,201.0,,Transneptunien,H
+2000 OM,201.0,,Transneptunien,H
+2002 CC,201.0,,Transneptunien,H
+2001 KE,201.0,,Transneptunien,H
+2003 TG,201.0,,Transneptunien,H
+1999 RE,201.0,,Transneptunien,H
+Fortune,200.0,,Astéroïde,D
+2015 FP,200.0,,Transneptunien,H
+2004 VN,200.0,,Transneptunien,H
+2010 EN,200.0,,Centaure. Troyen,F
+2005 JZ,200.0,,Transneptunien,H
+Thisbé,200.0,8.449999999999999e+18,Astéroïde,D
+Iris,199.8,8.4e+18,Astéroïde,D
+Thémis,198.0,,Astéroïde,D
+Alauda,195.0,,Astéroïde,D
+Janus,194.0,1.92e+18,Satellite,C
+2003 FB,192.0,,Transneptunien,H
+2013 JU,192.0,,Transneptunien,H
+1999 OY,192.0,,Transneptunien,H
+1998 KR,192.0,,Transneptunien,H
+2001 KO,192.0,,Transneptunien,H
+2002 VA,192.0,,Transneptunien,H
+2001 FM,192.0,,Transneptunien,H
+2002 GZ,192.0,,Centaure. Troyen,F
+1999 OX,192.0,,Transneptunien,H
+2001 KJ,192.0,,Transneptunien,H
+1999 HW,192.0,,Transneptunien,H
+Pholos,190.0,,Centaure. Troyen,F
+Sycorax,190.0,5.4e+18,Satellite,C
+Palma,189.0,,Astéroïde,D
+2003 QA,188.0,,Transneptunien,H
+Némésis,188.0,,Astéroïde,D
+Hébé,186.0,6.7e+18,Astéroïde,D
+2002 GZ,187.0,,Transneptunien,H
+Bertha,185.0,,Astéroïde,D
+Métis,184.0,4.5999999999999995e+18,Astéroïde,D
+Freia,184.0,,Astéroïde,D
+1999 OF,183.0,,Transneptunien,H
+1999 CL,183.0,,Transneptunien,H
+1994 JQ,183.0,,Transneptunien,H
+Électre,182.0,,Astéroïde,D
+Irène,182.0,6.3e+18,Astéroïde,D
+Calliope,181.0,,Astéroïde,D
+Aléthée,179.0,,Astéroïde,D
+2003 WU,178.0,,Transneptunien,H
+Galatée,176.0,3.7e+18,Satellite,C
+Teharonhiawako,176.0,,Transneptunien,H
+1993 FW,175.0,,Transneptunien,H
+1994 VK,175.0,,Transneptunien,H
+2001 QG,175.0,,Transneptunien,H
+2004 EW,175.0,,Transneptunien,H
+2003 FC,175.0,,Transneptunien,H
+2003 UR,175.0,,Transneptunien,H
+2001 KP,175.0,,Transneptunien,H
+2001 KN,175.0,,Transneptunien,H
+1998 UU,175.0,,Transneptunien,H
+1995 GJ,175.0,,Transneptunien,H
+Lachésis,174.0,,Astéroïde,D
+Daphné,174.0,,Astéroïde,D
+Céto,172.0,,Transneptunien,H
+Winchester,172.0,,Astéroïde,D
+Hilda,171.0,,Astéroïde,D
+Amalthée,172.0,2.8e+18,Satellite,C
+Pretoria,170.0,,Astéroïde,D
+Églé,170.0,,Astéroïde,D
+2000 WK,170.0,,Transneptunien,H
+Himalia,170.0,6.7e+18,Satellite,C
+Germania,169.0,,Astéroïde,D
+Procné,168.0,,Astéroïde,D
+Stereoskopia,168.0,,Astéroïde,D
+2000 YU,167.0,,Transneptunien,H
+Agamemnon,167.0,,Centaure. Troyen,F
+1999 RY,167.0,,Transneptunien,H
+2002 CX,167.0,,Transneptunien,H
+1996 TQ,167.0,,Transneptunien,H
+1994 TB,167.0,,Transneptunien,H
+1999 RA,167.0,,Transneptunien,H
+2000 QM,167.0,,Transneptunien,H
+Borasisi,167.0,,Transneptunien,H
+Chiron,166.0,5e+18,Centaure. Troyen,F
+Diomède,166.0,5e+18,Centaure. Troyen,F
+Alexandra,166.0,,Astéroïde,D
+Siegena,165.0,,Astéroïde,D
+Elpis,165.0,,Astéroïde,D
+2001 UO,163.0,,Transneptunien,H
+Gyptis,163.0,,Astéroïde,D
+2001 XR,163.0,,Transneptunien,H
+Aspasie,162.0,,Astéroïde,D
+Parthénope,162.0,6.15e+18,Astéroïde,D
+Puck,162.0,2.9e+18,Satellite,C
+Didon,160.0,,Astéroïde,D
+1999 HR,160.0,,Transneptunien,H
+1998 WA,160.0,,Transneptunien,H
+2002 GG,160.0,,Transneptunien,H
+2004 DJ,160.0,,Transneptunien,H
+2004 PB,160.0,,Transneptunien,H
+1998 BU,160.0,,Transneptunien,H
+1997 CR,160.0,,Transneptunien,H
+1998 WT,160.0,,Transneptunien,H
+2001 QF,160.0,,Transneptunien,H
+2000 CM,160.0,,Transneptunien,H
+Ismène,159.0,,Astéroïde,D
+Chicago,159.0,,Astéroïde,D
+Hispania,158.0,,Astéroïde,D
+2001 QY,158.0,,Transneptunien,H
+2005 CB,158.0,,Transneptunien,H
+Eunice,158.0,,Astéroïde,D
+Juewa,157.0,,Astéroïde,D
+2001 QR,156.0,,Centaure. Troyen,F
+Loreley,155.0,,Astéroïde,D
+Ino,154.0,,Astéroïde,D
+Éléonore,155.0,,Astéroïde,D
+Io,155.0,,Astéroïde,D
+2002 PB,153.0,,Transneptunien,H
+2002 GX,153.0,,Transneptunien,H
+1999 RB,153.0,,Transneptunien,H
+2002 FU,153.0,,Transneptunien,H
+2000 PK,153.0,,Transneptunien,H
+2001 YJ,153.0,,Transneptunien,H
+1999 RA,153.0,,Transneptunien,H
+2005 EO,152.0,,Transneptunien,H
+Julie,151.0,,Astéroïde,D
+Merapi,151.0,,Astéroïde,D
+Berbericia,151.0,,Astéroïde,D
+Adeona,151.0,,Astéroïde,D
+Nuwa,151.0,,Astéroïde,D
+2000 FE,151.0,,Transneptunien,H
+2000 CM,150.0,,Transneptunien,H
+Kreusa,150.0,,Astéroïde,D
+Palès,150.0,,Astéroïde,D
+Lætitia,150.0,,Astéroïde,D
+Despina,150.0,2.1e+18,Satellite,C
+Lomia,149.0,,Astéroïde,D
+2000 QL,149.0,,Transneptunien,H
+Hypatie,148.0,,Astéroïde,D
+Sibylle,148.0,,Astéroïde,D
+Emma,148.0,,Astéroïde,D
+Nemausa,148.0,,Astéroïde,D
+Dioné,147.0,,Astéroïde,D
+1999 HT,146.0,,Transneptunien,H
+2004 DJ,146.0,,Transneptunien,H
+1999 CF,146.0,,Transneptunien,H
+1999 RJ,146.0,,Transneptunien,H
+1999 RD,146.0,,Transneptunien,H
+2003 HB,146.0,,Transneptunien,H
+1999 CV,146.0,,Transneptunien,H
+1999 CO,146.0,,Transneptunien,H
+1998 HP,146.0,,Transneptunien,H
+1994 GV,146.0,,Transneptunien,H
+2002 VT,146.0,,Transneptunien,H
+1999 HB,146.0,,Transneptunien,H
+Massalia,145.5,4.8e+18,Astéroïde,D
+Mélibée,145.0,,Astéroïde,D
+S/2007 (275809) 1,144.0,,Satellite transneptunien,I
+Énée,143.0,2e+18,Centaure. Troyen,F
+Patrocle,143.0,1.36e+18,Centaure. Troyen,F
+Isolda,143.0,,Astéroïde,D
+Vibilia,142.0,,Astéroïde,D
+Princetonia,142.0,,Astéroïde,D
+Helio,142.0,,Astéroïde,D
+Bononia,142.0,,Astéroïde,D
+Minerve,142.0,,Astéroïde,D
+Flore,141.0,2.6e+18,Astéroïde,D
+Bertholda,141.0,,Astéroïde,D
+Polyxo,141.0,,Astéroïde,D
+Adorea,140.0,,Astéroïde,D
+Melpomène,140.6,,Astéroïde,D
+Dembowska,140.0,,Astéroïde,D
+1999 CP,139.0,,Transneptunien,H
+1998 WA,139.0,,Transneptunien,H
+1996 TR,139.0,,Transneptunien,H
+1998 WW,139.0,,Transneptunien,H
+1995 QY,139.0,,Transneptunien,H
+1997 QJ,139.0,,Transneptunien,H
+2000 YC,139.0,,Transneptunien,H
+1998 HJ,139.0,,Transneptunien,H
+S/2001 (47171) 1,139.0,7e+17,Satellite transneptunien,I
+Comacina,139.0,,Astéroïde,D
+Hespérie,138.0,,Astéroïde,D
+2000 OJ,138.0,,Transneptunien,H
+Épiméthée,138.0,5.4000000000000006e+17,Satellite,C
+Pabu,137.0,,Satellite transneptunien,I
+Pulcova,137.0,,Astéroïde,D
+Aréthuse,136.0,,Astéroïde,D
+Philomèle,136.0,,Astéroïde,D
+Médée,136.0,,Astéroïde,D
+Achille,135.0,,Centaure. Troyen,F
+Wratislavia,135.0,,Astéroïde,D
+Até,135.0,,Astéroïde,D
+Eucrate,134.0,,Astéroïde,D
+Erminia,134.0,,Astéroïde,D
+Papagena,134.0,,Astéroïde,D
+Portia,135.0,1.7e+18,Satellite,C
+Typhon,134.0,,Transneptunien,H
+1999 CG,133.0,,Transneptunien,H
+1998 WW,133.0,,Transneptunien,H
+2001 XT,133.0,,Transneptunien,H
+1998 HK,133.0,,Transneptunien,H
+1999 HC,133.0,,Transneptunien,H
+Protogénie,133.0,,Astéroïde,D
+Desiderata,132.0,,Astéroïde,D
+Lucine,132.0,,Astéroïde,D
+Liguria,131.0,,Astéroïde,D
+Lumen,131.0,,Astéroïde,D
+Lamberta,130.0,,Astéroïde,D
+Aurelia,129.0,,Astéroïde,D
+Dynamène,128.0,,Astéroïde,D
+Boliviana,128.0,,Astéroïde,D
+Zelinda,127.0,,Astéroïde,D
+Hippo,127.0,,Astéroïde,D
+Aglaé,127.0,,Astéroïde,D
+2001 XS,127.0,,Transneptunien,H
+Arawn,127.0,,Transneptunien,H
+1993 SB,127.0,,Transneptunien,H
+2002 GB,127.0,,Transneptunien,H
+Thulé,127.0,,Astéroïde,D
+Ondine,126.4,,Astéroïde,D
+Odyssée,126.0,,Centaure. Troyen,F
+Argentina,126.0,,Astéroïde,D
+Anchise,126.0,,Centaure. Troyen,F
+Marianna,125.0,,Astéroïde,D
+Æmilia,125.0,,Astéroïde,D
+Thia,125.0,,Astéroïde,D
+Clymène,124.0,,Astéroïde,D
+Chloris,124.0,,Astéroïde,D
+Hestia,124.0,,Astéroïde,D
+Gudrun,123.0,,Astéroïde,D
+Déiphobe,123.0,,Centaure. Troyen,F
+Léto,123.0,,Astéroïde,D
+Panopée,122.0,,Astéroïde,D
+Johanna,122.0,,Astéroïde,D
+Adelheid,122.0,,Astéroïde,D
+Iduna,121.0,,Astéroïde,D
+Diane,121.0,,Astéroïde,D
+Myrrha,121.0,,Astéroïde,D
+1994 JS,121.0,,Transneptunien,H
+2003 SS,121.0,,Transneptunien,H
+2001 FL,121.0,,Transneptunien,H
+2005 RH,121.0,,Transneptunien,H
+2001 KV,121.0,,Transneptunien,H
+Xanthippe,121.0,,Astéroïde,D
+Bellone,121.0,,Astéroïde,D
+Sémélé,121.0,,Astéroïde,D
+1999 RZ,120.0,,Transneptunien,H
+2002 PN,120.0,,Transneptunien,H
+Henrietta,120.0,,Astéroïde,D
+Elfriede,120.0,,Astéroïde,D
+Antiope,120.0,,Astéroïde,D
+Albion,120.0,,Transneptunien,H
+Astrée,119.0,1.2e+18,Astéroïde,D
+Artémis,119.0,,Astéroïde,D
+Terpsichore,119.0,,Astéroïde,D
+Galatée,119.0,,Astéroïde,D
+Prométhée,119.0,3.3e+17,Satellite,C
+Ornamenta,118.0,,Astéroïde,D
+Tanete,118.0,,Astéroïde,D
+Ophélie,117.0,,Astéroïde,D
+Hedwig,117.0,,Astéroïde,D
+Freda,117.0,,Astéroïde,D
+2002 XU,116.0,,Transneptunien,H
+1998 HM,116.0,,Transneptunien,H
+Ulla,116.0,,Astéroïde,D
+Pâris,116.0,,Centaure. Troyen,F
+Pompeja,116.0,,Astéroïde,D
+Machaon,116.0,,Centaure. Troyen,F
+Léda,116.0,,Astéroïde,D
+Carlova,116.0,,Astéroïde,D
+Brixia,116.0,,Astéroïde,D
+Veritas,116.0,,Astéroïde,D
+2003 LG,116.0,,Transneptunien,H
+2000 JG,116.0,,Transneptunien,H
+1998 US,116.0,,Transneptunien,H
+1995 QZ,116.0,,Transneptunien,H
+Thébé,116.0,4.3e+17,Satellite,C
+Tisiphone,116.0,,Astéroïde,D
+Calypso,115.0,,Astéroïde,D
+Cava,115.0,,Astéroïde,D
+Alcathoos,115.0,,Centaure. Troyen,F
+Charybde,114.0,,Astéroïde,D
+Circé,114.0,,Astéroïde,D
+Antigone,113.0,,Astéroïde,D
+Scheila,113.0,,Astéroïde,D
+Mélété,113.0,,Astéroïde,D
+Hersilia,113.0,,Astéroïde,D
+Victoria,112.0,1.5e+18,Astéroïde,D
+Mnémosyne,113.0,,Astéroïde,D
+Messaline,111.0,,Astéroïde,D
+2000 PV,111.0,,Transneptunien,H
+Teucer,111.0,,Centaure. Troyen,F
+Automédon,111.0,,Centaure. Troyen,F
+Faïna,111.0,,Astéroïde,D
+2001 FR,111.0,,Transneptunien,H
+1998 WU,111.0,,Transneptunien,H
+2000 PJ,111.0,,Transneptunien,H
+2006 SQ,110.0,,Transneptunien,H
+Égine,110.0,,Astéroïde,D
+Siwa,110.0,,Astéroïde,D
+Tauris,110.0,,Astéroïde,D
+Aline,109.0,,Astéroïde,D
+Polyxène,109.0,,Astéroïde,D
+Athamantis,109.0,,Astéroïde,D
+Nestor,109.0,,Centaure. Troyen,F
+Fidès,108.0,,Astéroïde,D
+Sophrosyne,108.0,,Astéroïde,D
+Harmonie,108.0,,Astéroïde,D
+Mandeville,108.0,,Astéroïde,D
+Thalie,107.5,,Astéroïde,D
+Eucharis,107.0,,Astéroïde,D
+Hermentaria,107.0,,Astéroïde,D
+Tatjana,106.0,,Astéroïde,D
+Armida,106.0,,Astéroïde,D
+1995 DA,106.0,,Transneptunien,H
+2003 QZ,106.0,,Transneptunien,H
+Ninina,106.0,,Astéroïde,D
+1999 RH,106.0,,Transneptunien,H
+Marion,106.0,,Astéroïde,D
+Corduba,106.0,,Astéroïde,D
+Atalante,106.0,,Astéroïde,D
+Luscinia,106.0,,Astéroïde,D
+Rollandia,105.0,,Astéroïde,D
+Eva,105.0,,Astéroïde,D
+Ianthé,104.0,,Astéroïde,D
+Vanadis,104.0,,Astéroïde,D
+Éos,104.0,,Astéroïde,D
+Hohensteina,104.0,,Astéroïde,D
+Ani,104.0,,Astéroïde,D
+Troïle,103.0,,Centaure. Troyen,F
+Nausicaa,103.0,,Astéroïde,D
+Pandore,103.0,1.94e+17,Satellite,C
+Ausonie,103.0,,Astéroïde,D
+Leucothée,103.0,,Astéroïde,D
+Sapientia,103.0,,Astéroïde,D
+Simeïsa,103.0,,Astéroïde,D
+Cythère,103.0,,Astéroïde,D
+1999 CZ,103.0,,Transneptunien,H
+Astérope,103.0,,Astéroïde,D
+Euphorbe,102.0,,Centaure. Troyen,F
+Antiloque,102.0,,Centaure. Troyen,F
+Abastumani,102.0,,Astéroïde,D
+Helga,101.0,,Astéroïde,D
+Andromaque,101.0,,Astéroïde,D
+Kolga,101.0,,Astéroïde,D
+Gerlinde,101.0,,Astéroïde,D
+2000 OY,101.0,,Transneptunien,H
+1996 SZ,101.0,,Transneptunien,H
+2000 QB,101.0,,Transneptunien,H
+Notburga,101.0,,Astéroïde,D
+Aquitania,101.0,,Astéroïde,D
+Isis,100.0,,Astéroïde,D
+Uranie,100.0,,Astéroïde,D
+2008 LC,100.0,,Centaure. Troyen,F
+1999 RT,100.0,,Transneptunien,H
+Caliban,98.0,7.3e+17,Satellite,C
+Euterpe,96.0,,Astéroïde,D
+Lutèce,95.8,,Astéroïde,D
+Proserpine,95.1,,Astéroïde,D
+Juliette,94.0,5.5999999999999994e+17,Satellite,C
+2015 DB,90.0,,Centaure. Troyen,F
+Polymnie,90.0,,Astéroïde,D
+Thétis,90.0,,Astéroïde,D
+Élara,86.0,8.699999999999999e+17,Satellite,C
+2000 EE,84.0,,Transneptunien,H
+Danaé,82.0,,Astéroïde,D
+Thalassa,82.0,3.7e+17,Satellite,C
+Belinda,81.0,3.6e+17,Satellite,C
+Pomonone,80.8,,Astéroïde,D
+1999 CY,80.0,,Transneptunien,H
+Cressida,80.0,3.4e+17,Satellite,C
+Phocée,75.1,,Astéroïde,D
+1999 OJ,75.0,,Transneptunien,H
+Rosalinde,72.0,2.5e+17,Satellite,C
+Hylonomé,70.0,,Centaure. Troyen,F
+Naïade,66.0,1.9e+17,Satellite,C
+Mathilde,66.0,1.0329999999999998e+17,Astéroïde,D
+Asbolos,66.0,,Centaure. Troyen,F
+2000 CF,64.0,,Transneptunien,H
+Desdémone,64.0,1.8e+17,Satellite,C
+Nessos,60.0,,Centaure. Troyen,F
+Pasiphaé,60.0,3e+17,Satellite,C
+Métis,60.0,3.6e+16,Satellite,C
+2000 OO,60.0,,Transneptunien,H
+1999 RB,58.0,,Transneptunien,H
+Ida,56.0,1e+17,Astéroïde,D
+Hydre,55.0,4.2e+17,Satellite transneptunien,I
+Bianca,51.0,9.3e+16,Satellite,C
+Halimède,48.0,9e+16,Satellite,C
+Sao,48.0,9e+16,Satellite,C
+Laomédie,48.0,9e+16,Satellite,C
+Néso,48.0,1.6e+17,Satellite,C
+Carmé,46.0,1.3e+17,Satellite,C
+Ophélie,43.0,5.4e+16,Satellite,C
+Otréré,42.0,,Centaure. Troyen,F
+Nix,42.0,,Satellite transneptunien,I
+Cordélia,40.0,4.5e+16,Satellite,C
+Psamathée,38.0,4.3e+16,Satellite,C
+Hidalgo,38.0,8400000000000000.0,Centaure. Troyen,F
+Sinopé,38.0,7.5e+16,Satellite,C
+Lysithée,36.0,6.3e+16,Satellite,C
+Atlas,37.0,1.1000000000000002e+17,Satellite,C
+Hélène,33.0,2.5e+16,Satellite,C
+Siarnaq,32.0,,Satellite,C
+Ganymède,37.7,,Astéroïde,D
+Calypso,30.0,3160000000000000.0,Satellite,C
+Prospero,30.0,2.1e+16,Satellite,C
+Setebos,30.0,2.1e+16,Satellite,C
+Ananké,28.0,3e+16,Satellite,C
+Phobos,26.8,1.07e+16,Satellite,C
+Perdita,26.0,,Satellite,C
+Albiorix,26.0,2100000000000000.0,Satellite,C
+Télesto,22.0,7200000000000000.0,Satellite,C
+Éros,20.0,7200000000000000.0,Astéroïde,D
+Adrastée,20.0,,Satellite,C
+Léda,20.0,1.1e+16,Satellite,C
+Pan,20.0,4694000000000000.0,Satellite,C
+Stephano,20.0,,Satellite,C
+Paaliaq,19.0,,Satellite,C
+Gaspra,19.0,,Astéroïde,D
+Don Quichotte,18.7,,Astéroïde,D
+Annefrank,16.6,,Astéroïde,D
+Ymir,16.0,5100000000000000.0,Satellite,C
+Mab,16.0,,Satellite,C
+Hippocampe,16.0,,Satellite,C
+Déimos,15.0,1480000000000000.0,Satellite,C
+Haley,15.0,,Comète,G
+2002 RP,14.6,,Transneptunien,H
+Kiviuq,14.0,,Satellite,C
+Tarvos,13.0,,Satellite,C
+Ferdinand,12.0,,Satellite,C
+Francisco,12.0,,Satellite,C
+Cupid,12.0,,Satellite,C
+Marguerite,11.0,,Satellite,C
+Damoclès,10.0,,Transneptunien,H
+Ijiraq,10.0,,Satellite,C
+Trinculo,10.0,,Satellite,C
+Callirrhoé,9.0,,Satellite,C
+Erriapus,9.0,,Satellite,C
+Thémisto,8.0,,Satellite,C
+Praxidiké,7.0,,Satellite,C
+2005 VX,7.0,,Transneptunien,H
+2000 AB,7.0,,Transneptunien,H
+Narvi,7.0,340000000000000.0,Satellite,C
+Mundilfari,6.0,,Satellite,C
+Skathi,6.0,,Satellite,C
+Suttungr,6.0,,Satellite,C
+Thrymr,6.0,,Satellite,C
+Šteins,5.9,,Astéroïde,D
+C/1992 J1,,,Comète,G
+Wild 2,5.1,,Comète,G
+Phaéton,5.1,,Astéroïde,D
+Jocaste,5.0,,Satellite,C
+Calycé,5.0,,Satellite,C
+Mégaclité,5.0,,Satellite,C
+Cruithne,5.0,,Astéroïde,D
+Taygète,5.0,,Satellite,C
+Toutatis,4.5,,Astéroïde,D
+Tchourioumov-Guérassimenko,4.1,,Comète,G
+Autonoé,4.0,90000000000000.0,Satellite,C
+Chaldéné,4.0,,Satellite,C
+Harpalycé,4.0,,Satellite,C
+Hermippé,4.0,,Satellite,C
+Isonoé,4.0,,Satellite,C
+Thyoné,4.0,,Satellite,C
+Eukéladé,4.0,,Satellite,C
+Hélicé,4.0,,Satellite,C
+Aédé,4.0,,Satellite,C
+Dia,4.0,,Satellite,C
+S/2003 J 5,4.0,,Satellite,C
+Aitné,3.0,,Satellite,C
+Érinomé,3.2,,Satellite,C
+Euanthé,3.0,,Satellite,C
+Méthone,3.0,,Satellite,C
+Arché,3.0,,Satellite,C
+Eurêka,3.0,,Centaure. Troyen,F
+Hégémone,3.0,,Satellite,C
+Carpo,3.0,,Satellite,C
+Albert,2.4,,Astéroïde,D
+Braille,2.1,7800000000000.0,Astéroïde,D
+Coré,1.7,,Satellite,C
+Euporie,2.0,,Satellite,C
+Calé,2.0,,Satellite,C
+Orthosie,2.0,,Satellite,C
+Pasithée,2.0,,Satellite,C
+Atira,2.0,,Astéroïde,D
+Spondé,2.0,,Satellite,C
+Callichore,2.0,,Satellite,C
+Cyllèné,2.0,,Satellite,C
+Mnémé,2.0,,Satellite,C
+Thelxinoé,2.0,,Satellite,C
+Hersé,2.0,,Satellite,C
+S/2003 J 2,2.0,,Satellite,C
+S/2003 J 3,2.0,,Satellite,C
+S/2003 J 4,2.0,,Satellite,C
+S/2003 J 10,2.0,,Satellite,C
+S/2003 J 15,2.0,,Satellite,C
+S/2003 J 16,2.0,,Satellite,C
+S/2003 J 18,2.0,,Satellite,C
+S/2003 J 19,2.0,,Satellite,C
+S/2003 J 23,2.0,,Satellite,C
+Apollon,1.7,,Astéroïde,D
+Amor,1.5,,Astéroïde,D
+Moshup,1.5,,Astéroïde,D
+Icare,1.4,,Astéroïde,D
+2006 HY,1.2,,Astéroïde,D
+Aton,1.1,,Astéroïde,D
+2004 JG,1.0,,Astéroïde,D
+S/2003 J 9,1.0,,Satellite,C
+Adonis,1.0,,Astéroïde,D
+S/2003 J 12,1.0,,Satellite,C
+2000 BD,0.91,,Astéroïde,D
+2007 EB,2.8,,Astéroïde,D
+Itokawa,0.607,35000000000.0,Astéroïde,D
+2002 VE,0.5,,Astéroïde,D
+2005 YU,0.4,,Astéroïde,D
+Apophis,0.3,40000000000.0,Astéroïde,D
+2004 GU,0.25,,Astéroïde,D
+2011 AG,0.14,,Astéroïde,D
+Duende,0.05,,Astéroïde,D
+2003 YN,0.02,,Astéroïde,D
+2004 FH,0.03,28000000.0,Astéroïde,D
+2012 BX,0.01,,Astéroïde,D
+Ikeya-Seki,,,Comète,G
+C/2015 ER61,20.0,,Comète,G
+2002 AA,0.06,,Astéroïde,D
+1991 VG,0.007,,Astéroïde,D

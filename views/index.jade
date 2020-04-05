@@ -9,7 +9,8 @@ block head
       div.input
         span.label Paramètre
           select(id="Number", name="Number")
-            option(value=number) #{number}
+            if(number)
+              option(value=number) #{number}
             option(value="Masse") Masse
             option(value="Diamètre équatoriale") Diamètre équatoriale
             option(value="demi-grand axe") demi-grand axe
@@ -29,10 +30,10 @@ block head
       div.input
         span.label Classe
           select(id="Classe", name="classe")
-            option(value= classe) #{classe}
-            option(value="") Toutes
-            option(value="Étoile") Étoile
+            if(classe)
+              option(value= classe) #{classe}
             option(value="Planète") Planète
+            option(value="Étoile") Étoile
             option(value="Satellite") Satellite
             option(value="Astéroïde") Astéroïde
             option(value="Centaure. Troyen") Centaure. Troyen

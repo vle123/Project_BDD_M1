@@ -27,7 +27,8 @@ router.get('/:id', function(req, res, next) {
       else{ 
         if (tasks.length>0){
           tasks=tasks[0];
-          res.render('view', { object: tasks ,title:tasks.Nom});
+          
+          res.render('view', { object: tasks.toString() ,title:tasks.Nom});
         }
       }
     });
