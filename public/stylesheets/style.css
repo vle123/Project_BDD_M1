@@ -6,6 +6,7 @@ html{
 body {
  
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
  
 }
 
@@ -111,4 +112,72 @@ form div {
 article{
   text-align: center;
   margin-top: 50px;
+}
+p.intro {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 200px;
+  color: white;
+  font-size: large;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #286090;
+  background-image: none;
+  border-color: #204d74;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+a.btn.btn-primary {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.large{
+  margin: 20px;
+  font-size: x-large;
 }

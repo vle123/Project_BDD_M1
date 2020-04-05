@@ -2,7 +2,7 @@ extends layout
 
 block head
   nav
-    form(name="filter",method="post",action="/")
+    form(name="filter",method="post",action="/filter")
       div.input
         span.label Nom
         input(type="text",name="name",value= name)
@@ -44,7 +44,7 @@ block head
         span.label Limite
         input(type="number",name="limit",value=limit)
       div.input
-        input(type="submit",name="submit",value="filtrer")
+        input(type="submit",class="btn btn-primary",name="submit",value="filtrer")
 block content
   article
     section
