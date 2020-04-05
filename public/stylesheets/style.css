@@ -69,9 +69,10 @@ form{
       text-align: center;
       color: black;
       padding: 5px;
-      border-radius: 0 0 10px 10px;
+      border-radius:10px;
       width: fit-content;
       margin: auto;
+      margin-bottom: 20px;
 }
 .bold{
   font-weight: bold;
@@ -181,3 +182,31 @@ a.btn.btn-primary {
   margin: 20px;
   font-size: x-large;
 }
+.left{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.menu{
+  display: block;
+  margin: auto;
+  background: white;
+  width: 35em;
+  border-radius: 46px;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.menu a{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+a.selected {
+  color: darkturquoise;
+  border-bottom: 4px solid;
+}
+

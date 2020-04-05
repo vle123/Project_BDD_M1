@@ -3,6 +3,8 @@ extends layout
 
 block content
   p.intro Ce site regroupe l'ensemble des corps célestes recensés dans le système solaire. Elle est actuellement  composée de 851 corps. Ce site à pour but de trier et de permettre une visualisation plus simple de ces objets. Vous aurez accès à une recherche sur ces objet et une visualisation des information disponible. Vous aurez donc la possibilité de réaliser une recherche ou de visualiser la totalité de ces corps. Pour la recherche vous aurez différentes options de recherches. Dans ces options, la masse est la seul qui sort du lot, vous devrez renseigner une puissance de 10 pour le minimum ou le maximum. Bonne Visualisation.
-  a(class="btn btn-primary large",href="/filter")="Filtrer les données"
-  a(class="btn btn-primary large",href="/d3")="Voir Toutes les données"
+  nav.menu
+    a(class="selected",href="/")="Acceuil"
+    a(class="",href="/filter")="Filtrer les données"
+    a(class="",href="/d3")="Voir Toutes les données"
  

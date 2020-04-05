@@ -2,6 +2,11 @@ doctype html
 extends layout
 
 block content
+  nav.menu
+      a(class="",href="/")="Acceuil"
+      a(class="",href="/filter")="Filtrer les données"
+      a(class="selected",href="/d3")="Voir Toutes les données"
+ 
   script(type="module" src="/javascripts/index.js" )
 
 
