@@ -1,0 +1,78 @@
+extends layout
+
+block head
+  nav
+    form(name="filter",method="post")
+      div.input
+        span.label Nom
+        input(type="text",name="name",value= name)
+      div.input
+        span.label Paramètre
+          select(id="Number", name="Number")
+            if(number)
+              option(value=number) #{number}
+            option(value="Masse") Masse
+            option(value="Diamètre équatoriale") Diamètre équatoriale
+            option(value="demi-grand axe") demi-grand axe
+            option(value="périhélie") périhélie
+            option(value="aphélie") aphélie
+            option(value="excentricité orbitale") excentricité orbitale
+            option(value="inclinaison orbitale") inclinaison orbitale
+            option(value="magnitude absolue") magnitude absolue
+            option(value="magnitude apparente") magnitude apparente
+            
+      div.input
+        span.label Minimum
+        input(type="number",name="min",value= min)
+      div.input
+        span.label Maximum
+        input(type="number",name="max",value= max)
+      div.input
+        span.label Classe
+          select(id="Classe", name="classe")
+            if(classe)
+              option(value= classe) #{classe}
+            option(value="Planète") Planète
+            option(value="Étoile") Étoile
+            option(value="Satellite") Satellite
+            option(value="Astéroïde") Astéroïde
+            option(value="Centaure. Troyen") Centaure. Troyen
+            option(value="Comète") Comète
+            option(value="Transneptunien") Transneptunien
+            option(value="Satellite transneptunien") Satellite transneptunien
+      div.input
+        span.label Limite
+        input(type="number",name="limit",value=limit)
+      div.input
+        input(type="submit",name="submit",value="filtrer")
+block content
+  div.resultat
+    each book in books
+      span.objet
+        a(href="/view/#{book._id}") 
+          p.nom #{book.Nom}
+          if book.Photo
+            img(src= book.Photo, alt= book.Classe)
+          else
+            case book.Classe
+              when "Étoile"
+                img(src="images/soleil.png", alt= book.Classe)
+              when "Planète"
+                img(src="images/planete.png", alt= book.Classe)
+              when "Satellite de planète"
+                img(src="images/lune.png", alt= book.Classe)
+              when "Satellite de planète mineure"
+                img(src="images/lune.png", alt= book.Classe)
+              when "Satellite"
+                img(src="images/lune.png", alt= book.Classe)
+              when "Comète"
+                img(src="images/comeete.png", alt= book.Classe)
+              when "Satellite transneptunien"
+                img(src="images/lune.png", alt= book.Classe)
+              default
+                img(src="images/asteroide.png", alt= book.Classe)
+          p.id= book._id
+    span.objet
+block script
+  script(src='/javascripts/js.js', type="text/javascript" ,defer)
+  
